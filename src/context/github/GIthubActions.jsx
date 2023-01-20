@@ -8,7 +8,7 @@ const github = axios.create({
 })
 
 // Get search results
-export const searchUsers = async (text) => {
+export const search = async (text) => {
   const params = new URLSearchParams({
     q: text,
   })
